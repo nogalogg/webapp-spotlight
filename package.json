@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev-server": "vite --open",
-    "dev": "npm run dev-server",
+    "dev": "pnpm run dev-server",
     "dev-task": "vite",
     "deploy": "npx @azure/static-web-apps-cli login --no-use-keychain && npx @azure/static-web-apps-cli deploy",
     "build": "tsc && vite build",
-    "start": "npm run dev",
+    "start": "pnpm run dev",
     "start-remote": "vite --host"
   },
   "author": "",
@@ -17,7 +17,9 @@
   "dependencies": {
     "@shoelace-style/shoelace": "^2.4.0",
     "@thepassle/app-tools": "^0.9.9",
+    "gh": "^2.8.9",
     "lit": "^2.7.2",
+    "pnpm": "^8.11.0",
     "urlpattern-polyfill": "^7.0.0",
     "workbox-build": "^6.5.2",
     "workbox-core": "^6.5.2",
