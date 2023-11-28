@@ -17,7 +17,6 @@
   "dependencies": {
     "@shoelace-style/shoelace": "^2.4.0",
     "@thepassle/app-tools": "^0.9.9",
-    "gh": "^2.8.9",
     "lit": "^2.7.2",
     "pnpm": "^8.11.0",
     "urlpattern-polyfill": "^7.0.0",
@@ -28,7 +27,9 @@
   "devDependencies": {
     "typescript": "^5.0.4",
     "vite": "^4.2.1",
-    "vite-plugin-pwa": "^0.14.7"
+    "vite-plugin-pwa": "^0.14.7",
+    "corepack": "^0.23.0",
+    "gh": "^2.8.9"
   },
   "prettier": {
     "tabWidth": 2,
@@ -39,5 +40,6 @@
     "trailingComma": "es5",
     "endOfLine": "crlf",
     "bracketSpacing": true
-  }
+  },
+  "packageManager": "pnpm@8.11.0+sha256.5858806c3b292cbec89b5533662168a957358e2bbd86431516d441dc1aface89"
 }
